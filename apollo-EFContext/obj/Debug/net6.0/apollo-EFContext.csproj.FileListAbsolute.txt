@@ -1,0 +1,15 @@
+C:\Users\ABCD\Desktop\Layers\apollo-EFContext\bin\Debug\net6.0\apollo-EFContext.deps.json
+C:\Users\ABCD\Desktop\Layers\apollo-EFContext\bin\Debug\net6.0\apollo-EFContext.dll
+C:\Users\ABCD\Desktop\Layers\apollo-EFContext\bin\Debug\net6.0\apollo-EFContext.pdb
+C:\Users\ABCD\Desktop\Layers\apollo-EFContext\bin\Debug\net6.0\apollo-Business-Entities.dll
+C:\Users\ABCD\Desktop\Layers\apollo-EFContext\bin\Debug\net6.0\apollo-Business-Entities.pdb
+C:\Users\ABCD\Desktop\Layers\apollo-EFContext\obj\Debug\net6.0\apollo-EFContext.csproj.AssemblyReference.cache
+C:\Users\ABCD\Desktop\Layers\apollo-EFContext\obj\Debug\net6.0\apollo-EFContext.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ABCD\Desktop\Layers\apollo-EFContext\obj\Debug\net6.0\apollo-EFContext.AssemblyInfoInputs.cache
+C:\Users\ABCD\Desktop\Layers\apollo-EFContext\obj\Debug\net6.0\apollo-EFContext.AssemblyInfo.cs
+C:\Users\ABCD\Desktop\Layers\apollo-EFContext\obj\Debug\net6.0\apollo-EFContext.csproj.CoreCompileInputs.cache
+C:\Users\ABCD\Desktop\Layers\apollo-EFContext\obj\Debug\net6.0\apollo-EFContext.csproj.CopyComplete
+C:\Users\ABCD\Desktop\Layers\apollo-EFContext\obj\Debug\net6.0\apollo-EFContext.dll
+C:\Users\ABCD\Desktop\Layers\apollo-EFContext\obj\Debug\net6.0\refint\apollo-EFContext.dll
+C:\Users\ABCD\Desktop\Layers\apollo-EFContext\obj\Debug\net6.0\apollo-EFContext.pdb
+C:\Users\ABCD\Desktop\Layers\apollo-EFContext\obj\Debug\net6.0\ref\apollo-EFContext.dll

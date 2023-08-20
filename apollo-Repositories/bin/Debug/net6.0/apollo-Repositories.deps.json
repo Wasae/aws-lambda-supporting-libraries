@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "apollo-Repositories/1.0.0": {
+        "dependencies": {
+          "apollo-Business-Entities": "1.0.0"
+        },
+        "runtime": {
+          "apollo-Repositories.dll": {}
+        }
+      },
+      "apollo-Business-Entities/1.0.0": {
+        "runtime": {
+          "apollo-Business-Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "apollo-Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "apollo-Business-Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

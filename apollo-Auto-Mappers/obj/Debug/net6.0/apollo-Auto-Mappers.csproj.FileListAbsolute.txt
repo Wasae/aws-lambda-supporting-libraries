@@ -1,0 +1,17 @@
+C:\Users\ABCD\Desktop\Layers\apollo-Auto-Mappers\bin\Debug\net6.0\apollo-Auto-Mappers.deps.json
+C:\Users\ABCD\Desktop\Layers\apollo-Auto-Mappers\bin\Debug\net6.0\apollo-Auto-Mappers.dll
+C:\Users\ABCD\Desktop\Layers\apollo-Auto-Mappers\bin\Debug\net6.0\apollo-Auto-Mappers.pdb
+C:\Users\ABCD\Desktop\Layers\apollo-Auto-Mappers\bin\Debug\net6.0\apollo-Business-Entities.dll
+C:\Users\ABCD\Desktop\Layers\apollo-Auto-Mappers\bin\Debug\net6.0\apollo-DTO.dll
+C:\Users\ABCD\Desktop\Layers\apollo-Auto-Mappers\bin\Debug\net6.0\apollo-DTO.pdb
+C:\Users\ABCD\Desktop\Layers\apollo-Auto-Mappers\bin\Debug\net6.0\apollo-Business-Entities.pdb
+C:\Users\ABCD\Desktop\Layers\apollo-Auto-Mappers\obj\Debug\net6.0\apollo-Auto-Mappers.csproj.AssemblyReference.cache
+C:\Users\ABCD\Desktop\Layers\apollo-Auto-Mappers\obj\Debug\net6.0\apollo-Auto-Mappers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ABCD\Desktop\Layers\apollo-Auto-Mappers\obj\Debug\net6.0\apollo-Auto-Mappers.AssemblyInfoInputs.cache
+C:\Users\ABCD\Desktop\Layers\apollo-Auto-Mappers\obj\Debug\net6.0\apollo-Auto-Mappers.AssemblyInfo.cs
+C:\Users\ABCD\Desktop\Layers\apollo-Auto-Mappers\obj\Debug\net6.0\apollo-Auto-Mappers.csproj.CoreCompileInputs.cache
+C:\Users\ABCD\Desktop\Layers\apollo-Auto-Mappers\obj\Debug\net6.0\apollo-Auto-Mappers.csproj.CopyComplete
+C:\Users\ABCD\Desktop\Layers\apollo-Auto-Mappers\obj\Debug\net6.0\apollo-Auto-Mappers.dll
+C:\Users\ABCD\Desktop\Layers\apollo-Auto-Mappers\obj\Debug\net6.0\refint\apollo-Auto-Mappers.dll
+C:\Users\ABCD\Desktop\Layers\apollo-Auto-Mappers\obj\Debug\net6.0\apollo-Auto-Mappers.pdb
+C:\Users\ABCD\Desktop\Layers\apollo-Auto-Mappers\obj\Debug\net6.0\ref\apollo-Auto-Mappers.dll

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\apollo-Auto-Mappers\apollo-Auto-Mappers.csproj" />
+    <ProjectReference Include="..\apollo-Repositories\apollo-Repositories.csproj" />
+    <ProjectReference Include="..\apollo-Services\apollo-Services.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+C:\Users\ABCD\Desktop\Layers\apollo-DTO\bin\Debug\net6.0\apollo-DTO.deps.json
+C:\Users\ABCD\Desktop\Layers\apollo-DTO\bin\Debug\net6.0\apollo-DTO.dll
+C:\Users\ABCD\Desktop\Layers\apollo-DTO\bin\Debug\net6.0\apollo-DTO.pdb
+C:\Users\ABCD\Desktop\Layers\apollo-DTO\obj\Debug\net6.0\apollo-DTO.csproj.AssemblyReference.cache
+C:\Users\ABCD\Desktop\Layers\apollo-DTO\obj\Debug\net6.0\apollo-DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ABCD\Desktop\Layers\apollo-DTO\obj\Debug\net6.0\apollo-DTO.AssemblyInfoInputs.cache
+C:\Users\ABCD\Desktop\Layers\apollo-DTO\obj\Debug\net6.0\apollo-DTO.AssemblyInfo.cs
+C:\Users\ABCD\Desktop\Layers\apollo-DTO\obj\Debug\net6.0\apollo-DTO.csproj.CoreCompileInputs.cache
+C:\Users\ABCD\Desktop\Layers\apollo-DTO\obj\Debug\net6.0\apollo-DTO.dll
+C:\Users\ABCD\Desktop\Layers\apollo-DTO\obj\Debug\net6.0\refint\apollo-DTO.dll
+C:\Users\ABCD\Desktop\Layers\apollo-DTO\obj\Debug\net6.0\apollo-DTO.pdb
+C:\Users\ABCD\Desktop\Layers\apollo-DTO\obj\Debug\net6.0\ref\apollo-DTO.dll

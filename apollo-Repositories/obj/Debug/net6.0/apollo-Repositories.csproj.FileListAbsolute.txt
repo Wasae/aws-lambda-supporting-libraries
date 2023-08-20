@@ -1,0 +1,15 @@
+C:\Users\ABCD\Desktop\Layers\apollo-Repositories\bin\Debug\net6.0\apollo-Repositories.deps.json
+C:\Users\ABCD\Desktop\Layers\apollo-Repositories\bin\Debug\net6.0\apollo-Repositories.dll
+C:\Users\ABCD\Desktop\Layers\apollo-Repositories\bin\Debug\net6.0\apollo-Repositories.pdb
+C:\Users\ABCD\Desktop\Layers\apollo-Repositories\obj\Debug\net6.0\apollo-Repositories.csproj.AssemblyReference.cache
+C:\Users\ABCD\Desktop\Layers\apollo-Repositories\obj\Debug\net6.0\apollo-Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ABCD\Desktop\Layers\apollo-Repositories\obj\Debug\net6.0\apollo-Repositories.AssemblyInfoInputs.cache
+C:\Users\ABCD\Desktop\Layers\apollo-Repositories\obj\Debug\net6.0\apollo-Repositories.AssemblyInfo.cs
+C:\Users\ABCD\Desktop\Layers\apollo-Repositories\obj\Debug\net6.0\apollo-Repositories.csproj.CoreCompileInputs.cache
+C:\Users\ABCD\Desktop\Layers\apollo-Repositories\obj\Debug\net6.0\apollo-Repositories.dll
+C:\Users\ABCD\Desktop\Layers\apollo-Repositories\obj\Debug\net6.0\refint\apollo-Repositories.dll
+C:\Users\ABCD\Desktop\Layers\apollo-Repositories\obj\Debug\net6.0\apollo-Repositories.pdb
+C:\Users\ABCD\Desktop\Layers\apollo-Repositories\obj\Debug\net6.0\ref\apollo-Repositories.dll
+C:\Users\ABCD\Desktop\Layers\apollo-Repositories\bin\Debug\net6.0\apollo-Business-Entities.dll
+C:\Users\ABCD\Desktop\Layers\apollo-Repositories\bin\Debug\net6.0\apollo-Business-Entities.pdb
+C:\Users\ABCD\Desktop\Layers\apollo-Repositories\obj\Debug\net6.0\apollo-Repositories.csproj.CopyComplete

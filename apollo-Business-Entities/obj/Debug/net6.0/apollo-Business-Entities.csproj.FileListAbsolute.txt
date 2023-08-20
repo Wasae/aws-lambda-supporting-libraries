@@ -1,0 +1,12 @@
+C:\Users\ABCD\Desktop\Layers\apollo-Business-Entities\bin\Debug\net6.0\apollo-Business-Entities.deps.json
+C:\Users\ABCD\Desktop\Layers\apollo-Business-Entities\bin\Debug\net6.0\apollo-Business-Entities.dll
+C:\Users\ABCD\Desktop\Layers\apollo-Business-Entities\bin\Debug\net6.0\apollo-Business-Entities.pdb
+C:\Users\ABCD\Desktop\Layers\apollo-Business-Entities\obj\Debug\net6.0\apollo-Business-Entities.csproj.AssemblyReference.cache
+C:\Users\ABCD\Desktop\Layers\apollo-Business-Entities\obj\Debug\net6.0\apollo-Business-Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ABCD\Desktop\Layers\apollo-Business-Entities\obj\Debug\net6.0\apollo-Business-Entities.AssemblyInfoInputs.cache
+C:\Users\ABCD\Desktop\Layers\apollo-Business-Entities\obj\Debug\net6.0\apollo-Business-Entities.AssemblyInfo.cs
+C:\Users\ABCD\Desktop\Layers\apollo-Business-Entities\obj\Debug\net6.0\apollo-Business-Entities.csproj.CoreCompileInputs.cache
+C:\Users\ABCD\Desktop\Layers\apollo-Business-Entities\obj\Debug\net6.0\apollo-Business-Entities.dll
+C:\Users\ABCD\Desktop\Layers\apollo-Business-Entities\obj\Debug\net6.0\refint\apollo-Business-Entities.dll
+C:\Users\ABCD\Desktop\Layers\apollo-Business-Entities\obj\Debug\net6.0\apollo-Business-Entities.pdb
+C:\Users\ABCD\Desktop\Layers\apollo-Business-Entities\obj\Debug\net6.0\ref\apollo-Business-Entities.dll
