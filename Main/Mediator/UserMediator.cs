@@ -14,8 +14,8 @@ namespace Main.Mediator
 {
     public class UserMediator
     {
-        private dynamic _mediator = typeof(IUserRepository);
-        //private IUserRepository _mediator = new UserService();
+        //private dynamic _mediator = typeof(IUserRepository);
+        private IUserRepository _mediator = new UserService();
 
         public async Task Delete(int id)
         {
