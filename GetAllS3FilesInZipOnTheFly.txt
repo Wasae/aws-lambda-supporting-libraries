@@ -1,0 +1,70 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.IO.Compression;
+using System.Threading.Tasks;
+using Amazon.S3;
+using Amazon.S3.Model;
+
+class Program
+{
+    private const string AwsAccessKey = "your-access-key";
+    private const string AwsSecretKey = "your-secret-key";
+    private const string AwsRegion = "your-region";
+    private const string S3BucketName = "your-s3-bucket";
+
+    static async Task Main(string[] args)
+    {
+        var keysToDownload = new List<string>
+        {
+            "file1.txt",
+            "file2.txt"
+            // Add more S3 object keys as needed
+        };
+
+        await DownloadAndZipFiles(keysToDownload);
+    }
+
+    static async Task DownloadAndZipFiles(List<string> objectKeys)
+    {
+        using (var s3Client = new AmazonS3Client(AwsAccessKey, AwsSecretKey, Amazon.RegionEndpoint.GetBySystemName(AwsRegion)))
+        {
+            using (var zipMemoryStream = new MemoryStream())
+            {
+                using (var archive = new ZipArchive(zipMemoryStream, ZipArchiveMode.Create, true))
+                {
+                    foreach (var key in objectKeys)
+                    {
+                        await DownloadFileFromS3ToZipStream(s3Client, key, archive);
+                    }
+                }
+
+                // Now, zipMemoryStream contains the zip file content
+
+                // Optionally, you can upload the zipMemoryStream to S3 or do other operations
+
+                Console.WriteLine("Zip file created on the fly.");
+            }
+        }
+    }
+
+    static async Task DownloadFileFromS3ToZipStream(IAmazonS3 s3Client, string objectKey, ZipArchive archive)
+    {
+        var getObjectRequest = new GetObjectRequest
+        {
+            BucketName = S3BucketName,
+            Key = objectKey
+        };
+
+        var response = await s3Client.GetObjectAsync(getObjectRequest);
+
+        var entry = archive.CreateEntry(objectKey, CompressionLevel.Optimal);
+
+        using (var entryStream = entry.Open())
+        {
+            await response.ResponseStream.CopyToAsync(entryStream);
+        }
+
+        Console.WriteLine($"Downloaded: {objectKey}");
+    }
+}
