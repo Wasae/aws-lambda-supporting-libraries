@@ -42,6 +42,8 @@ class Program
                 // Now, zipMemoryStream contains the zip file content
 
                 // Optionally, you can upload the zipMemoryStream to S3 or do other operations
+		await UploadStreamToS3(zipMemoryStream, S3BucketName, ZipFileName);
+		var preSignedUrl = GeneratePreSignedUrl(S3BucketName, ZipFileName);
 
                 Console.WriteLine("Zip file created on the fly.");
             }
@@ -66,5 +68,37 @@ class Program
         }
 
         Console.WriteLine($"Downloaded: {objectKey}");
+    }
+
+    private async Task UploadStreamToS3(MemoryStream stream, string bucketName, string key)
+    {
+        using (var s3Client = new AmazonS3Client(AwsAccessKey, AwsSecretKey, Amazon.RegionEndpoint.GetBySystemName(AwsRegion)))
+        {
+            stream.Position = 0;
+
+            var request = new PutObjectRequest
+            {
+                BucketName = bucketName,
+                Key = key,
+                InputStream = stream
+            };
+
+            await s3Client.PutObjectAsync(request);
+        }
+    }
+
+    private string GeneratePreSignedUrl(string bucketName, string key)
+    {
+        using (var s3Client = new AmazonS3Client(AwsAccessKey, AwsSecretKey, Amazon.RegionEndpoint.GetBySystemName(AwsRegion)))
+        {
+            var request = new GetPreSignedUrlRequest
+            {
+                BucketName = bucketName,
+                Key = key,
+                Expires = DateTime.UtcNow.AddHours(1) // Set the expiration time for the pre-signed URL
+            };
+
+            return s3Client.GetPreSignedURL(request);
+        }
     }
 }
